@@ -10,6 +10,8 @@ Using the portal do the following steps first:
   4. Enable Cloud Resource Manager API
   5. Enable App Engine Admin API
 
+Note: You must enable permissions of "owner" on the project and "storage object viewer" permissions for the Service account.
+
 ## Next, create the Teraform Configuration files/folders required:
 Working folder should look like this:
     
