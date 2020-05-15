@@ -54,12 +54,12 @@ provider "google" {
   zone    = var.zone
   }
 
-}
+
 resource "google_storage_bucket" "my_storage_bucket" {
   name          = "my-demo-storage-bucket"
   location      = var.region
  }
-}
+
 ```
 
 Now create a file called `terraform.tfvars` with the following code;
