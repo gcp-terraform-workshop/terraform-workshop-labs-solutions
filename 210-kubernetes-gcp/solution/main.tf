@@ -1,6 +1,6 @@
 module "gke" {
   source                     = "terraform-google-modules/kubernetes-engine/google"
-  project_id                 = "mimetic-pursuit-271713"
+  project_id                 = "booth-test-55"
   name                       = "gke-test-1"
   region                     = "us-east1"
   zones                      = ["us-east1-b", "us-east1-c", "us-east1-d"]
