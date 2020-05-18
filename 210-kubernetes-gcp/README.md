@@ -112,3 +112,12 @@ Inspect the infrastructure in the portal.
 ### Clean up
 
 When you are done, run `terraform destroy` to remove everything we created.
+
+```
+gcloud components install kubectl
+
+```
+
+```
+gcloud container clusters get-credentials gke-test-1 --region us-east1 --project booth-test-55
+```
