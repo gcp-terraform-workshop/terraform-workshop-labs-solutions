@@ -1,4 +1,4 @@
-# Azure Virtual Machine Scale Set
+# GKE cluster
 
 ## Expected Outcome
 
