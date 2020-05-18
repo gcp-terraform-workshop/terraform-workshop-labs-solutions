@@ -15,7 +15,7 @@
         "region": "{{ user `region` }}",
         "zone": "{{ user `zone` }}",
         "image_description": "Demo Ubuntu Machine Image",
-        "image_name": "u16demo",
+        "image_name": "u16demo2",
         "disk_size": 16,
         "disk_type": "pd-ssd",
         "ssh_username": "root"
